@@ -38,6 +38,7 @@ defmodule PhoWeb.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cortex, "~> 0.1"},
+     {:biz_logic, in_umbrella: true},
      {:cowboy, "~> 1.0"}]
   end
 end
