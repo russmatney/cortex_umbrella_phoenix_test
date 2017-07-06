@@ -7,5 +7,5 @@ defmodule PhoWeb.PageController do
     render conn, "index.html"
   end
 
-  def new, do: "hi"
+  def new, do: "howdy"
 end

@@ -13,6 +13,6 @@ defmodule BizLogic do
 
   """
   def hello do
-    :world
+    :howdy
   end
 end

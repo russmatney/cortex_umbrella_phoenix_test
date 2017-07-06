@@ -21,7 +21,7 @@ defmodule PhoWeb.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {PhoWeb, []},
-     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext]]
+     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext, :cortex]]
   end
 
   # Specifies which paths to compile per environment.
